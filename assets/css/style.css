@@ -1,0 +1,190 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #777777;
+	background: url("../images/full-bloom.png");
+	line-height: 34px;
+	margin: 0;
+}
+
+#me {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 20px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* nav bar-heading */
+nav {
+	border-bottom: 2px solid #cccccc;
+	background: #ffffff;
+	margin: 0 0 30px;
+}
+
+ul {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	list-style-type: none;
+	margin: 0px 0px 15px 0px;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+	margin-left: 50px;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	color: #777777;
+}
+
+a:link {
+	text-decoration: none;
+}
+/*nav-bar heading */
+
+/* logo */
+#logo-link {
+	color: #ffffff;
+}
+
+#logo {
+	float: left;
+	width: 200px;
+	height: 60px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 60px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background: #4aaaa5;
+	margin-top: 0px;
+	margin-left: 55px;
+	padding-bottom: 5px;
+}
+/*logo */
+
+/* photo grid*/
+.row {
+	display: flex;
+}
+
+.row2 {
+	display: flex;
+}
+
+.column {
+	position: relative;
+	flex: 33.33%;
+	padding: 5px;
+	margin: 20px;
+}
+
+.project-img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.text-box {
+	position: absolute;
+	height: 25px;
+	width: 100%;
+	left: 0;
+	bottom: 15px;
+	font-size: 16px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.outline:hover {
+	outline: 5px solid #666666;
+	outline-offset: 10px;
+}
+
+/*photo-grid*/
+
+/*content-box*/
+.content-box {
+	width: 847px;
+	padding: 50px;
+	margin: auto;
+	background: #ffffff;
+	border: #dddddd 2px solid;
+}
+
+hr {
+	border: 1px solid #cccccc;
+}
+/* content-box */
+
+/* form */
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+textarea {
+	height: 200px;
+	width: 98%;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+}
+/*form */
+
+/* button */
+.button {
+	background-color: #4aaaa5;
+	border: none;
+	color: #ffffff;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+}
+/* button */
+
+/* footer */
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	color: #ffffff;
+	border-top: 8px solid #4aaaa5;
+	height: 30px;
+	line-height: 60px;
+}
+/* footer */
