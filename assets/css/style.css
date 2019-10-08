@@ -36,6 +36,7 @@ ul {
 li {
 	float: right;
 	margin-left: 50px;
+	margin-right: 10px;
 }
 
 li a {
@@ -190,21 +191,46 @@ footer {
 /* footer */
 
 @media screen and (max-width: 980px) {
-	section {
-		width: 730px;
-	}
 }
 
-@media screen and (max-width: 640px) {
-	section {
-		width: 640px;
-	}
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 320px) {
+	/* nav {
+		position: static;
+	} */
 
 	#logo {
-		width: 640px;
+		clear: both;
+		position: static;
+		width: 100%;
+		margin: 0;
 	}
 
-	nav {
-		width: 640px;
+	section {
+		width: 100%;
+	}
+
+	.content-box {
+		width: 320px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	div {
+		width: 100%;
+	}
+
+	ul {
+		clear: both;
+	}
+
+	li {
+		/* clear: both; */
+		float: left;
+		width: 100%;
+		/* width: 50%; */
+		/* float: left; */
 	}
 }
