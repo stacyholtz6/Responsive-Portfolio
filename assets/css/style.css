@@ -190,17 +190,159 @@ footer {
 }
 /* footer */
 
+/* large screen */
 @media screen and (max-width: 980px) {
-}
-
-@media screen and (max-width: 780px) {
-}
-
-@media screen and (max-width: 320px) {
-	/* nav {
+	#logo {
+		clear: both;
 		position: static;
-	} */
+		width: 100%;
+		margin: 0;
+	}
 
+	section {
+		width: 100%;
+	}
+
+	.content-box {
+		width: 960px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	div {
+		width: 100%;
+	}
+
+	ul {
+		line-height: 20px;
+		clear: both;
+		width: 100%;
+	}
+
+	li {
+		/* clear: both; */
+		float: left;
+		/* width: 100%; */
+		/* width: 50%; */
+		/* float: left; */
+		margin-left: 0px;
+	}
+
+	form {
+		width: 200px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	textarea {
+		height: 200px;
+		width: 50%;
+		padding: 0 10px;
+		font-size: 14px;
+	}
+
+	button {
+		width: 200px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.project-img {
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.text-box {
+		position: absolute;
+		height: 5px;
+		width: 100%;
+		left: 0;
+		bottom: 6px;
+		font-size: 12px;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		text-align: center;
+		line-height: 10px;
+		/* padding-bottom: 5px; */
+	}
+}
+
+/* iPad pro */
+@media screen and (max-width: 780px) {
+	#logo {
+		clear: both;
+		position: static;
+		width: 100%;
+		margin: 0;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	.content-box {
+		width: 700px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	div {
+		width: 100%;
+	}
+
+	ul {
+		line-height: 20px;
+		clear: both;
+		width: 100%;
+	}
+
+	li {
+		/* clear: both; */
+		float: left;
+		/* width: 100%; */
+		/* width: 50%; */
+		/* float: left; */
+		margin-left: 0px;
+	}
+
+	form {
+		width: 600px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	textarea {
+		width: 300px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	button {
+		width: 200px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.project-img {
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.text-box {
+		position: absolute;
+		height: 5px;
+		width: 100%;
+		left: 0;
+		bottom: 6px;
+		font-size: 12px;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		text-align: center;
+		line-height: 10px;
+		/* padding-bottom: 5px; */
+	}
+}
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px) {
 	#logo {
 		clear: both;
 		position: static;
@@ -223,14 +365,53 @@ footer {
 	}
 
 	ul {
+		line-height: 20px;
 		clear: both;
+		width: 100%;
 	}
 
 	li {
 		/* clear: both; */
 		float: left;
-		width: 100%;
+		/* width: 100%; */
 		/* width: 50%; */
 		/* float: left; */
+		margin-left: 0px;
+	}
+
+	form {
+		width: 200px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	textarea {
+		width: 200px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	button {
+		width: 200px;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.project-img {
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.text-box {
+		position: absolute;
+		height: 5px;
+		width: 100%;
+		left: 0;
+		bottom: 6px;
+		font-size: 12px;
+		background-color: #4aaaa5;
+		color: #ffffff;
+		text-align: center;
+		line-height: 10px;
+		/* padding-bottom: 5px; */
 	}
 }
